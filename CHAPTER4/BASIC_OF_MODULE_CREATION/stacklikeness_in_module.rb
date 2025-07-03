@@ -1,7 +1,7 @@
 require './stack_module.rb'
 
 class Stack
-    include Stacklike
+  include Stacklike
 end
 
 a = Stack.new

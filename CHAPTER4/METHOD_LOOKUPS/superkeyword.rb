@@ -1,7 +1,7 @@
 module Chips
-    def snack
-    puts "'snack' method in Chips module"
-  end
+  def snack
+      puts "'snack' method in Chips module"
+    end
 end
 
 class Chocolate
