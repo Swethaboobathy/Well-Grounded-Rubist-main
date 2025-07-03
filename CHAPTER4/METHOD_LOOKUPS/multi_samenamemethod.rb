@@ -1,7 +1,7 @@
 module InterestBearing
- def calculate_interest
- puts "Placeholder! We're in module InterestBearing."
- end
+    def calculate_interest
+    puts "Placeholder! We're in module InterestBearing."
+   end
 end
 class BankAccount
  include InterestBearing

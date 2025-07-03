@@ -14,7 +14,7 @@ class Car < Bike
   end
 end
 
-puts Car.superclass
+puts Car.superclass # Output:
 
 vehicle = Car.new
 vehicle.drive

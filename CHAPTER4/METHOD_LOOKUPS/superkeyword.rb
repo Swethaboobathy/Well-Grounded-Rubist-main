@@ -1,5 +1,5 @@
 module Chips
-  def snack
+    def snack
     puts "'snack' method in Chips module"
   end
 end
