@@ -16,3 +16,4 @@ end
 
 a = Animal.new
 a.speak  # => self is #<Animal:...>
+

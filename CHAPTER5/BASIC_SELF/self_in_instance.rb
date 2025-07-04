@@ -8,3 +8,4 @@ end
 a = Animal.new
 a.speak  # This will call the speak method on the instance a
 puts a
+
