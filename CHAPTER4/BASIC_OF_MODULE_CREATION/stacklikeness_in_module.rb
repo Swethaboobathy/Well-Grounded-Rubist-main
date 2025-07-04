@@ -15,4 +15,4 @@ puts "Removing items on the stack"
 taken = a.take_from_stack
 puts taken  
 
-puts a.stack
+puts a.stack  
