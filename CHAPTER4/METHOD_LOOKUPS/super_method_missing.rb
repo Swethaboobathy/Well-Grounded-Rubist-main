@@ -10,4 +10,5 @@ end
 obj = MyObject.new
 obj.some_method  # This will trigger the method_missing method
 obj.another_method(1, 2, 3)  # This will also trigger the method_missing method
-obj.some_other_method("test")  # This will also trigger the method_missing method                                          
+obj.some_other_method("test")  # This will also trigger the method_missing method
+                                          
