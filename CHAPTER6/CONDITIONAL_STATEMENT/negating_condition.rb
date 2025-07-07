@@ -25,9 +25,3 @@ else
   puts "The light is on"
 end
 
-# Countdown loop using !
-countdown = 5
-while !(countdown < 2)
-  puts "Countdown: #{countdown}"
-  countdown -= 1
-end
