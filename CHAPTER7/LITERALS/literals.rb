@@ -3,9 +3,6 @@ msg = String.new("hello")
 puts "String: #{name} (#{name.class})"
 puts "String (constructed): #{msg} (#{msg.class})"
 
-role = :dev
-puts "Symbol: #{role} (#{role.class})"
-
 age = 22
 puts "Integer: #{age} (#{age.class})"
 
@@ -15,7 +12,7 @@ puts "Float: #{pi} (#{pi.class})"
 nums = [7, 11, 22, 33]
 puts "Array: #{nums.inspect} (#{nums.class})"
 
-info = { name: "Swetha", age: 22, role: :dev }
+info = { name: "Swetha", age: 22,}
 puts "Hash: #{info.inspect} (#{info.class})"
 
 rng = (10..15)

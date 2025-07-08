@@ -19,6 +19,5 @@ class Account
 end
 
 acc = Account.new(20)
-# acc -= 5
-acc = acc - 5
+acc -= 5
 puts acc  # => 15
